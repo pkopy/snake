@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Nowe okno ver.1</title>
+<style>
+body{
+-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	}
+.kula{
+    background-color: #4CAF50; /* Green */
+	position: absolute;
+    border: 1px solid;
+    color: yellow;
+   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   
+	height:40px;
+	width:40px;
+	}
+.pasek{
+		cursor: all-scroll;
+	
+	}
+.guziki{
+	cursor: pointer;
+}	
+input {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	border-radius: 8px;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+   from {width:; height:}
+    to {width: 40px; height:40px}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {width:; height:}
+    to {width: 40px; height:40px}
+}
+
+input  {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+input:hover {
+    background-color: #4CAF50;
+    color: white;
+	
+}
+#cos{
+text-align: center;
+background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+
+border-radius: 8px;
+width:100px;
+height:100px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#oko1, #pomoc {
+z-index:998;
+position:absolute;
+background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+padding: 16px 32px;
+border-radius: 8px;
+width: 300px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.timer {
+ -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+background-color: white; 
+    color: black; 
+    border: 0px solid #4CAF50;
+padding: 16px 32px;
+border-radius: 8px;
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+p{
+text-align: center;
+font-size: 32px;
+}
+#x{
+position: absolute;
+text-align: left;
+font-size: 30px;
+margin-left: -177px;
+margin-top:-10px;
+
+}
+#x1{
+position: absolute;
+text-align: left;
+font-size: 30px;
+margin-left: -190px;
+margin-top:-10px;
+
+}
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 2px;
+	padding: 0;
+	padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	 -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+ul {
+	
+}
+
+ul li {
+	float: left;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+	border-radius: 8px;
+}
+
+
+
+li:hover {
+	background-color: #4CAF50;
+	color: white;
+	
+}
+
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
+
+#home {
+    left: 0px;
+    width: 46px;
+    background: url('load.gif') 0 0;
+}
+
+#prev {
+    left: 63px;
+    width: 43px;
+    background: url('load.gif') -47px 0;
+}
+
+#next {
+    left: 129px;
+    width: 55px;
+	height:55px;
+    background: url('load.gif') -91px -20px;
+}
+
+
+</style>
+<script type="text/javascript" src="wonsz.js"></script>
+<script type="text/javascript" src="okno_v2.js"></script>
+<script type="text/javascript" src="timer_test.js"></script>
+</head>
+<body>
+<!-- <div id="cos"><img id="obraz1"src="0.png"></div> -->
+<!-- <a href="https://drive.google.com/open?id=0B097T3wnkJqbQnFZX2VIN0tJYjQ">KLIKKKKK</a> -->
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+
+
+test()
+wonsz('okno0')
+
+});
+</script>
+
+</body>
+</html>
