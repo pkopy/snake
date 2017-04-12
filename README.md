@@ -1,4 +1,4 @@
 # snake
 https://pkopy.github.io/snake
-\n
+</br>
 sterowanie strzałkami
